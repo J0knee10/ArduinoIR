@@ -94,7 +94,7 @@ void loop() {
       }
       break;
 
-    // Change fan speed
+    // Change default signal to receive
     case 1:
       Serial.print(F("Ready to receive signals"));
       digitalWrite(9, LOW);
